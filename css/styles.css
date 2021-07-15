@@ -36,6 +36,7 @@ p {
 
 .white-section{
   background-color: white;
+  color: #00DC4D;
 }
 
 /* Navigation Bar */
@@ -85,6 +86,42 @@ p {
   right: 10%;
 }
 
+/* Demo Image */
+.demo-image {
+  width: 60%;
+}
+
+/* IPhone Mock */
+body {
+  background: #f4f6fc;
+
+  &:after {
+    content: 'Made with ❤️ by Adiel Hercules';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #3F436B;
+    color: #fff;
+    opacity: 0.6;
+  }
+}
+
+.iphone-x {
+  position: relative;
+  margin: 40px auto;
+  width: 288px;
+  height: 636px;
+  width: 50
+  background-color: #7371ee;
+  background-image: url("../images/app-demo-animation.gif");
+  background-size: 288px 636px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
+
+
+}
+
 /* Features Section */
 #features {
   position: relative;
@@ -96,6 +133,8 @@ p {
 
 .feature-title{
   font-size: 1.2rem;
+  font-weight: 400;
+  color: #FF2D55;
 }
 
 .feature-icon {
